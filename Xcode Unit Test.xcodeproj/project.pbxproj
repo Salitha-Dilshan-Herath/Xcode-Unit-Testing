@@ -15,6 +15,9 @@
 		E5319EF026C632FE0069C5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5319EEE26C632FE0069C5DB /* LaunchScreen.storyboard */; };
 		E5319EFB26C632FE0069C5DB /* Xcode_Unit_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319EFA26C632FE0069C5DB /* Xcode_Unit_TestTests.swift */; };
 		E5319F0626C632FE0069C5DB /* Xcode_Unit_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319F0526C632FE0069C5DB /* Xcode_Unit_TestUITests.swift */; };
+		E56EA54226D139C9002591FE /* SignupFormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EA54126D139C9002591FE /* SignupFormValidatorTests.swift */; };
+		E56EA54426D13AA3002591FE /* SignupFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EA54326D13AA3002591FE /* SignupFormValidator.swift */; };
+		E56EA54626D13F70002591FE /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EA54526D13F70002591FE /* SignupConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E5319F0126C632FE0069C5DB /* Xcode Unit TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode Unit TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5319F0526C632FE0069C5DB /* Xcode_Unit_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Unit_TestUITests.swift; sourceTree = "<group>"; };
 		E5319F0726C632FE0069C5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56EA54126D139C9002591FE /* SignupFormValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormValidatorTests.swift; sourceTree = "<group>"; };
+		E56EA54326D13AA3002591FE /* SignupFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormValidator.swift; sourceTree = "<group>"; };
+		E56EA54526D13F70002591FE /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 				E5319EEC26C632FE0069C5DB /* Assets.xcassets */,
 				E5319EEE26C632FE0069C5DB /* LaunchScreen.storyboard */,
 				E5319EF126C632FE0069C5DB /* Info.plist */,
+				E56EA54326D13AA3002591FE /* SignupFormValidator.swift */,
+				E56EA54526D13F70002591FE /* SignupConstants.swift */,
 			);
 			path = "Xcode Unit Test";
 			sourceTree = "<group>";
@@ -115,6 +123,7 @@
 			children = (
 				E5319EFA26C632FE0069C5DB /* Xcode_Unit_TestTests.swift */,
 				E5319EFC26C632FE0069C5DB /* Info.plist */,
+				E56EA54126D139C9002591FE /* SignupFormValidatorTests.swift */,
 			);
 			path = "Xcode Unit TestTests";
 			sourceTree = "<group>";
@@ -259,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5319EE826C632FC0069C5DB /* ViewController.swift in Sources */,
+				E56EA54426D13AA3002591FE /* SignupFormValidator.swift in Sources */,
 				E5319EE426C632FC0069C5DB /* AppDelegate.swift in Sources */,
 				E5319EE626C632FC0069C5DB /* SceneDelegate.swift in Sources */,
+				E56EA54626D13F70002591FE /* SignupConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56EA54226D139C9002591FE /* SignupFormValidatorTests.swift in Sources */,
 				E5319EFB26C632FE0069C5DB /* Xcode_Unit_TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				INFOPLIST_FILE = "Xcode Unit Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				INFOPLIST_FILE = "Xcode Unit Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +487,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				INFOPLIST_FILE = "Xcode Unit TestTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,7 +509,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				INFOPLIST_FILE = "Xcode Unit TestTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,7 +530,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				INFOPLIST_FILE = "Xcode Unit TestUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,7 +550,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				INFOPLIST_FILE = "Xcode Unit TestUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
