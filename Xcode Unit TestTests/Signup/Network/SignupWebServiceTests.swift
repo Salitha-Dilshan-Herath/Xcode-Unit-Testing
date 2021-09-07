@@ -30,6 +30,7 @@ class SignupWebServiceTests: XCTestCase {
         sut = nil
         signupFormRequestModel = nil
         MockURLProtocol.stubResponseData = nil
+        MockURLProtocol.error = nil
     }
 
 
@@ -103,7 +104,7 @@ class SignupWebServiceTests: XCTestCase {
         sut.signup(withForm: signupFormRequestModel) { SignupResponseModel, error in
             
             
-            XCTAssertEqual(error, SignupError.failedRequest)
+            XCTAssertEqual(error, SignupError.failedRequest, "The Signup() method did not return an expected error for the failed request")
             expectation.fulfill()
         }
         

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E528DE2F26E5E05C00123B45 /* SignupPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE2E26E5E05C00123B45 /* SignupPresenterTests.swift */; };
+		E528DE3126E5E14300123B45 /* SignupFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE3026E5E14300123B45 /* SignupFormModel.swift */; };
+		E528DE3326E5E26700123B45 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE3226E5E26700123B45 /* SignupPresenter.swift */; };
+		E528DE3526E5E36700123B45 /* MockSignupModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE3426E5E36700123B45 /* MockSignupModelValidator.swift */; };
+		E528DE3726E5E53900123B45 /* SignupModelValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE3626E5E53900123B45 /* SignupModelValidatorProtocol.swift */; };
+		E528DE3D26E726DC00123B45 /* MockSignupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE3C26E726DC00123B45 /* MockSignupWebService.swift */; };
+		E528DE3F26E727A900123B45 /* SignupWebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE3E26E727A900123B45 /* SignupWebServiceProtocol.swift */; };
+		E528DE4126E72C2A00123B45 /* MockSignupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE4026E72C2A00123B45 /* MockSignupViewDelegate.swift */; };
+		E528DE4326E7306F00123B45 /* SignupViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528DE4226E7306F00123B45 /* SignupViewDelegateProtocol.swift */; };
 		E5319EE426C632FC0069C5DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319EE326C632FC0069C5DB /* AppDelegate.swift */; };
 		E5319EE626C632FC0069C5DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319EE526C632FC0069C5DB /* SceneDelegate.swift */; };
 		E5319EE826C632FC0069C5DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319EE726C632FC0069C5DB /* ViewController.swift */; };
@@ -14,7 +23,6 @@
 		E5319EED26C632FE0069C5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5319EEC26C632FE0069C5DB /* Assets.xcassets */; };
 		E5319EF026C632FE0069C5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5319EEE26C632FE0069C5DB /* LaunchScreen.storyboard */; };
 		E5319EFB26C632FE0069C5DB /* Xcode_Unit_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319EFA26C632FE0069C5DB /* Xcode_Unit_TestTests.swift */; };
-		E5319F0626C632FE0069C5DB /* Xcode_Unit_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5319F0526C632FE0069C5DB /* Xcode_Unit_TestUITests.swift */; };
 		E56EA54226D139C9002591FE /* SignupFormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EA54126D139C9002591FE /* SignupFormValidatorTests.swift */; };
 		E56EA54426D13AA3002591FE /* SignupFormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EA54326D13AA3002591FE /* SignupFormValidator.swift */; };
 		E56EA54626D13F70002591FE /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EA54526D13F70002591FE /* SignupConstants.swift */; };
@@ -34,16 +42,18 @@
 			remoteGlobalIDString = E5319EDF26C632FC0069C5DB;
 			remoteInfo = "Xcode Unit Test";
 		};
-		E5319F0226C632FE0069C5DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5319ED826C632FC0069C5DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5319EDF26C632FC0069C5DB;
-			remoteInfo = "Xcode Unit Test";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E528DE2E26E5E05C00123B45 /* SignupPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenterTests.swift; sourceTree = "<group>"; };
+		E528DE3026E5E14300123B45 /* SignupFormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModel.swift; sourceTree = "<group>"; };
+		E528DE3226E5E26700123B45 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
+		E528DE3426E5E36700123B45 /* MockSignupModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSignupModelValidator.swift; sourceTree = "<group>"; };
+		E528DE3626E5E53900123B45 /* SignupModelValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModelValidatorProtocol.swift; sourceTree = "<group>"; };
+		E528DE3C26E726DC00123B45 /* MockSignupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSignupWebService.swift; sourceTree = "<group>"; };
+		E528DE3E26E727A900123B45 /* SignupWebServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServiceProtocol.swift; sourceTree = "<group>"; };
+		E528DE4026E72C2A00123B45 /* MockSignupViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSignupViewDelegate.swift; sourceTree = "<group>"; };
+		E528DE4226E7306F00123B45 /* SignupViewDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewDelegateProtocol.swift; sourceTree = "<group>"; };
 		E5319EE026C632FC0069C5DB /* Xcode Unit Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode Unit Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5319EE326C632FC0069C5DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5319EE526C632FC0069C5DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,9 +65,6 @@
 		E5319EF626C632FE0069C5DB /* Xcode Unit TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode Unit TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5319EFA26C632FE0069C5DB /* Xcode_Unit_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Unit_TestTests.swift; sourceTree = "<group>"; };
 		E5319EFC26C632FE0069C5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5319F0126C632FE0069C5DB /* Xcode Unit TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode Unit TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5319F0526C632FE0069C5DB /* Xcode_Unit_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_Unit_TestUITests.swift; sourceTree = "<group>"; };
-		E5319F0726C632FE0069C5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E56EA54126D139C9002591FE /* SignupFormValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormValidatorTests.swift; sourceTree = "<group>"; };
 		E56EA54326D13AA3002591FE /* SignupFormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormValidator.swift; sourceTree = "<group>"; };
 		E56EA54526D13F70002591FE /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
@@ -84,22 +91,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5319EFE26C632FE0069C5DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E528DE3826E5F12800123B45 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				E528DE3226E5E26700123B45 /* SignupPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		E528DE3926E5F15700123B45 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E528DE3626E5E53900123B45 /* SignupModelValidatorProtocol.swift */,
+				E528DE3E26E727A900123B45 /* SignupWebServiceProtocol.swift */,
+				E528DE4226E7306F00123B45 /* SignupViewDelegateProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E528DE3A26E5F16C00123B45 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				E528DE2E26E5E05C00123B45 /* SignupPresenterTests.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		E528DE3B26E5F17E00123B45 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E528DE3426E5E36700123B45 /* MockSignupModelValidator.swift */,
+				E5D2F35D26D9FA89008E77FB /* MockURLProtocol.swift */,
+				E528DE3C26E726DC00123B45 /* MockSignupWebService.swift */,
+				E528DE4026E72C2A00123B45 /* MockSignupViewDelegate.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		E5319ED726C632FC0069C5DB = {
 			isa = PBXGroup;
 			children = (
 				E5319EE226C632FC0069C5DB /* Xcode Unit Test */,
 				E5319EF926C632FE0069C5DB /* Xcode Unit TestTests */,
-				E5319F0426C632FE0069C5DB /* Xcode Unit TestUITests */,
 				E5319EE126C632FC0069C5DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +145,6 @@
 			children = (
 				E5319EE026C632FC0069C5DB /* Xcode Unit Test.app */,
 				E5319EF626C632FE0069C5DB /* Xcode Unit TestTests.xctest */,
-				E5319F0126C632FE0069C5DB /* Xcode Unit TestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,15 +168,6 @@
 				E5319EFC26C632FE0069C5DB /* Info.plist */,
 			);
 			path = "Xcode Unit TestTests";
-			sourceTree = "<group>";
-		};
-		E5319F0426C632FE0069C5DB /* Xcode Unit TestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E5319F0526C632FE0069C5DB /* Xcode_Unit_TestUITests.swift */,
-				E5319F0726C632FE0069C5DB /* Info.plist */,
-			);
-			path = "Xcode Unit TestUITests";
 			sourceTree = "<group>";
 		};
 		E5D2F35326D9E857008E77FB /* Application */ = {
@@ -174,6 +200,8 @@
 		E5D2F35626D9ECA7008E77FB /* Signup */ = {
 			isa = PBXGroup;
 			children = (
+				E528DE3926E5F15700123B45 /* Protocols */,
+				E528DE3826E5F12800123B45 /* Presenters */,
 				E5D2F35926D9EE01008E77FB /* Network */,
 				E5D2F35826D9EDA9008E77FB /* Controllers */,
 				E5D2F35726D9ECB7008E77FB /* Models */,
@@ -189,6 +217,7 @@
 				E56EA54526D13F70002591FE /* SignupConstants.swift */,
 				E56EA54326D13AA3002591FE /* SignupFormValidator.swift */,
 				E5D2F35126D7C2B7008E77FB /* SignupError.swift */,
+				E528DE3026E5E14300123B45 /* SignupFormModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,9 +241,10 @@
 		E5D2F35A26D9EE20008E77FB /* Signup */ = {
 			isa = PBXGroup;
 			children = (
+				E528DE3B26E5F17E00123B45 /* Mocks */,
+				E528DE3A26E5F16C00123B45 /* Presenters */,
 				E5D2F35B26D9EE33008E77FB /* Model */,
 				E5D2F35C26D9EE3A008E77FB /* Network */,
-				E5D2F35D26D9FA89008E77FB /* MockURLProtocol.swift */,
 			);
 			path = Signup;
 			sourceTree = "<group>";
@@ -273,24 +303,6 @@
 			productReference = E5319EF626C632FE0069C5DB /* Xcode Unit TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E5319F0026C632FE0069C5DB /* Xcode Unit TestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5319F1026C632FE0069C5DB /* Build configuration list for PBXNativeTarget "Xcode Unit TestUITests" */;
-			buildPhases = (
-				E5319EFD26C632FE0069C5DB /* Sources */,
-				E5319EFE26C632FE0069C5DB /* Frameworks */,
-				E5319EFF26C632FE0069C5DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5319F0326C632FE0069C5DB /* PBXTargetDependency */,
-			);
-			name = "Xcode Unit TestUITests";
-			productName = "Xcode Unit TestUITests";
-			productReference = E5319F0126C632FE0069C5DB /* Xcode Unit TestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -304,10 +316,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					E5319EF526C632FE0069C5DB = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = E5319EDF26C632FC0069C5DB;
-					};
-					E5319F0026C632FE0069C5DB = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = E5319EDF26C632FC0069C5DB;
 					};
@@ -328,7 +336,6 @@
 			targets = (
 				E5319EDF26C632FC0069C5DB /* Xcode Unit Test */,
 				E5319EF526C632FE0069C5DB /* Xcode Unit TestTests */,
-				E5319F0026C632FE0069C5DB /* Xcode Unit TestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,13 +358,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5319EFF26C632FE0069C5DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -365,13 +365,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E528DE3326E5E26700123B45 /* SignupPresenter.swift in Sources */,
 				E5319EE826C632FC0069C5DB /* ViewController.swift in Sources */,
 				E56EA54426D13AA3002591FE /* SignupFormValidator.swift in Sources */,
 				E5D2F35026D7C259008E77FB /* SignupResponseModel.swift in Sources */,
 				E5319EE426C632FC0069C5DB /* AppDelegate.swift in Sources */,
 				E5D2F35226D7C2B7008E77FB /* SignupError.swift in Sources */,
+				E528DE4326E7306F00123B45 /* SignupViewDelegateProtocol.swift in Sources */,
+				E528DE3126E5E14300123B45 /* SignupFormModel.swift in Sources */,
 				E5319EE626C632FC0069C5DB /* SceneDelegate.swift in Sources */,
+				E528DE3726E5E53900123B45 /* SignupModelValidatorProtocol.swift in Sources */,
 				E5D2F34C26D76E3D008E77FB /* SignupFormRequestModel.swift in Sources */,
+				E528DE3F26E727A900123B45 /* SignupWebServiceProtocol.swift in Sources */,
 				E5D2F34A26D76D2A008E77FB /* SignupWebService.swift in Sources */,
 				E56EA54626D13F70002591FE /* SignupConstants.swift in Sources */,
 			);
@@ -382,17 +387,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D2F34826D76AE1008E77FB /* SignupWebServiceTests.swift in Sources */,
+				E528DE3D26E726DC00123B45 /* MockSignupWebService.swift in Sources */,
 				E56EA54226D139C9002591FE /* SignupFormValidatorTests.swift in Sources */,
+				E528DE3526E5E36700123B45 /* MockSignupModelValidator.swift in Sources */,
 				E5319EFB26C632FE0069C5DB /* Xcode_Unit_TestTests.swift in Sources */,
+				E528DE4126E72C2A00123B45 /* MockSignupViewDelegate.swift in Sources */,
+				E528DE2F26E5E05C00123B45 /* SignupPresenterTests.swift in Sources */,
 				E5D2F35E26D9FA89008E77FB /* MockURLProtocol.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5319EFD26C632FE0069C5DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5319F0626C632FE0069C5DB /* Xcode_Unit_TestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,11 +404,6 @@
 			isa = PBXTargetDependency;
 			target = E5319EDF26C632FC0069C5DB /* Xcode Unit Test */;
 			targetProxy = E5319EF726C632FE0069C5DB /* PBXContainerItemProxy */;
-		};
-		E5319F0326C632FE0069C5DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E5319EDF26C632FC0069C5DB /* Xcode Unit Test */;
-			targetProxy = E5319F0226C632FE0069C5DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -629,46 +625,6 @@
 			};
 			name = Release;
 		};
-		E5319F1126C632FE0069C5DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 45WH9Q9K4T;
-				INFOPLIST_FILE = "Xcode Unit TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.salitha.Xcode-Unit-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Xcode Unit Test";
-			};
-			name = Debug;
-		};
-		E5319F1226C632FE0069C5DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 45WH9Q9K4T;
-				INFOPLIST_FILE = "Xcode Unit TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.salitha.Xcode-Unit-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Xcode Unit Test";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -695,15 +651,6 @@
 			buildConfigurations = (
 				E5319F0E26C632FE0069C5DB /* Debug */,
 				E5319F0F26C632FE0069C5DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5319F1026C632FE0069C5DB /* Build configuration list for PBXNativeTarget "Xcode Unit TestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5319F1126C632FE0069C5DB /* Debug */,
-				E5319F1226C632FE0069C5DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
